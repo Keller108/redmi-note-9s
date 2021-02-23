@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+.details__content-wrap {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 75px;
+    overflow: hidden;
+}
+
+.redmi-note-9s__single-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+.redmi-note-9s__regural-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.redmi-note-9s__regular-section {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    padding: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    color: #242424 !important;
+    box-sizing: border-box;
+}
+
+.redmi-note-9s__section-title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+}
+
+.redmi__bm_10p {
+    margin-bottom: 10px;
+}
+
+.redmi-note-9s__section-subtitle {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.3;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.redmi-note-9s__section-text {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.redmi-note-9s__description-list {
+    color: #242424 !important;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.redmi-note-9s__description-list-item {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.redmi-note-9s__double-pic-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.redmi-note-9s__double-pic-item {
+    width: 48%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 480px) {
+    .redmi-note-9s__header-section {
+        padding: 30px;
+    }
+    .redmi-note-9s__section-title {
+        font-size: 20px;
+    }
+    .redmi-note-9s__section-subtitle {
+        font-size: 18px;
+    }
+    .redmi-note-9s__section-text {
+        font-size: 15px;
+    }
+    .redmi-note-9s__header-section {
+        padding: 30px;
+    }
+    .redmi-note-9s__regular-section {
+        padding: 30px;
+    }
+    .redmi-note-9s__double-pic-section {
+        flex-direction: column;
+    }
+    .redmi-note-9s__double-pic-item {
+        width: 100%;
+    }
+}
